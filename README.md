@@ -5,8 +5,14 @@
 
 Produces a system overview text file that highlights the **delta** from a stock Ubuntu installation.
 
+## Usage
+
+Copy the text content of "Delta from stock Ubuntu - paste into terminal.txt"
+Paste directly into the terminal.
+
 ## Output
 
+- The script is created and made executable by the provided setup snippet.
 - Writes a report to `~/system-overview.txt` (overwrites existing file).
 - The report contains sections for:
 	- Manually installed packages
@@ -16,13 +22,6 @@ Produces a system overview text file that highlights the **delta** from a stock 
 	- Non-system users
 	- `/opt` contents
 	- `/usr/local` binaries
-
-## Usage
-
-Copy the text content of "Delta from stock Ubuntu - paste into terminal.txt"
-Paste directly into the terminal.
-
-The script is created and made executable by the provided setup snippet.
 
 ## Permissions & Environment
 
